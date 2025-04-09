@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar | Page - 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        .n{
+            border: 5px dashed black;
+            padding: 10px;
+            margin: 5px;
+            background-color: lightblue;
+
+            border-color: brown;
+
+            /*this contennt must goes under parent tag*/
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: flex-end; /* it works column wise*/
+            /* justify-content: flex-end; */   /*it works row wise*/
+
+            position: sticky;
+            top: 0;
+
+             background-image: url('mk.jpg') ;
+             background-size: cover;
+             background-repeat: no-repeat;
+
+        }
+        .D{
+            border: 1px solid black;
+            height: 35px;
+            width: 120px;
+            padding: 3px;
+            margin: 5px;
+            
+        }
+        .a{
+            background-color: yellow;
+        }
+        .b{
+            background-color: blue;
+        }
+        .c{
+            background-color: rgb(213, 42, 26);
+        }
+        .l{
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+
+
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="n">
+        <div class="D a">
+           <a href="#home" class="h"><h1 class="h1">HOME</h1></a>
+        </div>
+
+        <div class="D b">
+            <a href="#about" class="h"><h2 class="h2">ABOUT</h2></a>
+        </div>
+
+        <div class="D c">
+            <a href="#contact" class="h"><h1 class="h3">CONTACT</h1></a>
+        </div>
+
+        <div class="l"><h1>MENU</h1></div>
+    </nav>
+    <iframe src="rainbow.html" frameborder="0" height="1600" width="1602"></iframe>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
